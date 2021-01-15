@@ -1,0 +1,7 @@
+name: TaskScheduler
+main: com.geik.timer.Main
+version: 1.0
+author: Geik
+commands:
+  taskscheduler:
+    description: Reload the config of scheduler

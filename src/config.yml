@@ -1,0 +1,14 @@
+# You have to open HaveDate setting if you want to use it only one day.
+Tasks:
+  0:
+    Time: '22:04:00'
+    HaveDate: true
+    Day: 'Mon'
+    Command:
+    - 'say This is a task for 22:04:00 only for Monday'
+  1:
+    Time: '22:04:05'
+    HaveDate: false
+    Day: ''
+    Command:
+    - 'say This is a task for 22:04:05 every day'
